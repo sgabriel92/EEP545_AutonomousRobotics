@@ -93,4 +93,12 @@ Because our PlannerNode can only generate a path between a source position and t
 
 In the ultimate competition, waypoints come in two variations: red and blue. The robot is tasked with navigating through the blue waypoints while avoiding the red ones. With advanced knowledge of the locations for both types of waypoints, a precomputing method becomes feasible. As a result, we've developed a dedicated standalone script for generating paths in the final race, saving the resulting poses in a text file. This design removes the necessity for the high-level entry script to interact with a running PlannerNode, as it can simply extract information directly from the text file.
 
+### Citation
+
+[Multi-agent System for non-Holonomic Racing (MuSHR)](https://mushr.io/about/)
+
+Srinivasa, S., Lancaster, P., Michalove, J., Schmittle, M., Summers, C., Rockett, M., Smith, J., Chouhury, S., Mavrogiannis, C., & Sadeghi, F. (2019). MuSHR: A Low-Cost, Open-Source Robotic Racecar for Education and Research. CoRR, abs/1908.08031.
+
+
+
 
